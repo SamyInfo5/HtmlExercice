@@ -343,12 +343,15 @@ footer {
   }
   .menu-tel{
     display: block;
-    width: 150px;
-    background-color: white;
+    width: 100px;
+    background-color: transparent;
     position: sticky;
     top: 0px;
   }
-
+  .menu-icon{
+    height: 50px;
+    width: 50px;
+  }
   nav ul{
       list-style-type: none;
       display: flex;
@@ -436,5 +439,8 @@ footer {
   iframe{
     height: 200px;
     width: 300px;
+  }
+  .main-container {
+    width: 90%;
   }
 }
