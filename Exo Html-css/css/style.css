@@ -158,6 +158,8 @@ footer {
   .header-scrolling{
     color: white;
     font-size: 40px;
+    display: flex;
+    align-self: center;
   }
   .entreprise-container{
     width: 80%;
@@ -171,8 +173,8 @@ footer {
     font-weight: 200;
   }
   .img-entreprise{
-    height: 400px;
-    width: 600px;
+    height: 600px;
+    width: 900px;
     box-shadow: 40px 40px rgb(248, 67, 67);
     margin-left: 200px;
   }
@@ -184,8 +186,8 @@ footer {
     justify-content: center;
   }
   .img-service{
-    height: 200px;
-    width: 400px;
+    height: 400px;
+    width: 600px;
   }
   .reparation, .entretien, .surmesure {
     display: flex;
