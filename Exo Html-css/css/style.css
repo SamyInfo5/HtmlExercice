@@ -400,16 +400,22 @@ footer {
   }
   .entreprise-container{
     flex-direction: column;
-    width: 20%;
-    padding: 20;
+    align-items: center;
+  }
+  .entreprise-texte-title{
+    font-size: 25px;
   }
   .img-entreprise {
     box-shadow: none;
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 20px;
   }
   .service{
     flex-direction: column;
+  }
+  .img-service{
+    width: 350px;
+    height: 250px;
   }
   .information {
     display: flex;
@@ -420,8 +426,13 @@ footer {
   }
   .info {
     flex-direction: column;
+    align-items: center;
   }
   textarea {
     width: 200px;
+  }
+  iframe{
+    height: 200px;
+    width: 300px;
   }
 }
