@@ -1,17 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 50px;
+}
 .header {
   background: url("../image/cordonnier.jpg");
-  height: 500px;
+  height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .dropdown{
   display: none;
 }
+.img-fluid{
+  box-shadow: 30px 30px red;
+}
 
 @media screen and (max-width : 507px) {
-  .header{
-    height: 250px;
-  }
   .nav{
     display: none;
   }
