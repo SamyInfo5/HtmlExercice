@@ -1,0 +1,20 @@
+.header {
+  background: url("../image/cordonnier.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dropdown{
+  display: none;
+}
+@media screen and (max-width : 507px) {
+  .header{
+    height: 250px;
+  }
+  .nav{
+    display: none;
+  }
+  .dropdown{
+    display: block;
+  }
+}
