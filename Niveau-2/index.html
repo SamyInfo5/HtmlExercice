@@ -42,17 +42,18 @@
         </div>
     </div>
   </header>
-  <div class="header d-flex align-items-center justify-content-center">
-    <div class="d-flex">
-      <div class="d-flex flex-column">
-        <div class="d-flex bg-danger ">
+  <div class="header">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="d-block flex-column">
+        <div class="bg-danger">
           <h1>Ici on répare vos chaussures</h1>
         </div>
-        <div class="d-flex-inline-sm bg-secondary mt-2 text-center">
+        <div class="bg-secondary mt-2 text-center">
           <h3>pour que vous repartiez de bon pied</h2>
         </div>
-
-        <p class="text-white d-flex justify-content-center">Scrollez vers le bas</p>
+        <div class="text-white h-100 d-flex justify-content-center align-items-end">
+          <h4>Scrollez vers le bas<h4>
+        </div>
       </div>
       <div>
       </div>
@@ -121,33 +122,33 @@
       <h1 class="">Contactez-nous</h1>
     </div>
     <div class="row ">
-        <div class="col-12 col-md-6 order-5 mt-2 p-0">
-          <div class="d-flex justify-content-center">
-            <iframe height="300px" width="400px"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
-              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="col-12 col-md-6 order-1 d-block flex-column p-0">
+        <div class="container d-inline-flex flex-column">
+          <label for="Name">Votre nom et prénom</label>
+          <input type="text">
+
+          <label>Sujet</label>
+          <select class="form-select">
+            <option selected>Choississez un sujet</option>
+            <option>Demande de devis</option>
+            <option>Question</option>
+            <option>Autres</option>
+          </select>
+
+          <label for="Message">Votre message</label>
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+          <div class="button container d-flex justify-content-end">
+            <button class="btn btn-primary d-flex mt-2">Envoyer</button>
           </div>
         </div>
-        <div class="col-12 col-md-6 order-1 d-flex flex-column p-0">
-          <div class="container d-inline-flex flex-column ">
-            <label for="Name">Votre nom et prénom</label>
-            <input type="text">
-
-            <label for="">Sujet</label>
-            <select class="form-select">
-              <option selected>Choississez un sujet</option>
-              <option>Demande de devis</option>
-              <option>Question</option>
-              <option>Autres</option>
-            </select>
-
-            <label for="Message">Votre message</label>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
-            <div class="button container d-flex justify-content-end">
-              <button class="btn btn-primary d-flex mt-2">Envoyer</button>
-            </div>
-          </div>
+      </div>
+      <div class="col-12 col-md-6  mt-2s">
+        <div class="d-flex justify-content-center">
+          <iframe height="300px" width="400px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+      </div>
     </div>
   </section>
   <footer class="bg-dark text-white d-flex justify-content-center align-items-center">
