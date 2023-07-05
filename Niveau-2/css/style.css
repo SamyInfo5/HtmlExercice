@@ -20,10 +20,16 @@ header{
 }
 
 @media screen and (max-width : 507px) {
+  .header{
+    height: 500px;
+  }
   .nav{
     display: none;
   }
   .dropdown{
     display: block;
+  }
+  .img-fluid {
+    box-shadow: none;
   }
 }
