@@ -26,65 +26,89 @@
       </div>
     </div>
   </header>
+
   <section id="acceuil">
-    <div class="container">
-      <h1 class="text-4xl bg-red-600	font-black">Ici, on répare vos chaussures</h1>
-      <h3 class="text-2xl bg-slate-400 font-bold">pour que vous repartiez du bon pied</h2>
+    <div class="flex h-96 justify-center align-middle">
+      <div class="container justify-center">
+        <h1 class="text-4xl bg-red-600	font-black">Ici, on répare vos chaussures</h1>
+        <h3 class="text-2xl bg-slate-400 font-bold">pour que vous repartiez du bon pied</h2>
         <p>Scrollez vers le bas</p>
+      </div>
     </div>
   </section>
+
   <section id="about">
-    <h1 class="text-3xl font-bold">Notre entrerprise</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus libero sunt corporis dolore asperiores, eos odio vero voluptas, consectetur ea commodi</p>
-    <img src="./image/about.jpg" alt="" srcset="">
+    <div class="container">
+      <div class="flex flex-row justify-center pt-8">
+        <div class="flex flex-col place-content-center">
+          <h1 class="text-3xl font-bold">Notre entrerprise</h1>
+          <p class="w-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus libero sunt corporis dolore asperiores, eos odio vero voluptas, consectetur ea commodi</p>
+        </div>
+        <div class="h-auto max-w-full">
+          <img src="./image/about.jpg">
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="service">
     <div class="container">
-      <h1 class=" text-4xl font-bold">Nos services</h1>
-      <div class="container">
-        <img src="./image/about.jpg" alt="">
-        <h1 class="text-3xl font-bold">Réparation</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
-      </div>
-      <div class="container">
-        <img src="./image/about.jpg" alt="">
-        <h1 class="text-3xl font-bold">Entretien</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
-      </div>
-      <div class="container">
-        <img src="./image/about.jpg" alt="">
-        <h1 class="text-3xl font-bold">Sur mesure</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
+      <div class="flex flex-col justify-center pt-8">
+        <h1 class=" text-4xl font-bold">Nos services</h1>
+        <div class="flex">
+          <div class="container">
+            <img src="./image/about.jpg">
+            <div class="container mx-auto">
+              <h1 class="text-3xl font-bold">Réparation</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="./image/about.jpg">
+            <div class="container mx-auto">
+              <h1 class="text-3xl font-bold">Entretien</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
+            </div>
+          </div>
+          <div class="container">
+            <img src="./image/about.jpg">
+            <div class="container  mx-auto">
+              <h1 class="text-3xl font-bold">Sur mesure</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
   </section>
+
   <section id="contact">
     <div class="container">
-      <form>
-        <label for="">Votre nom et prénom</label>
-        <input type="text" name="" id="">
+      <div class="flex flex-col">
+        <form>
+          
+          <label for="">Votre nom et prénom</label>
+          <input type="text" name="" id="">
 
-        <select>
-          <option value="">Choississez un sujet</option>
-          <option value="">Demandez un devis</option>
-          <option value="">Questions</option>
-          <option value="">Autres</option>
-        </select>
+          <select>
+            <option value="">Choississez un sujet</option>
+            <option value="">Demandez un devis</option>
+            <option value="">Questions</option>
+            <option value="">Autres</option>
+          </select>
 
-        <label for="">Sujet</label>
-        <textarea></textarea>
+          <label for="">Sujet</label>
+          <textarea></textarea>
 
-        <button>Envoyez</button>
-      </form>
+          <button>Envoyez</button>
+        </form>
 
-      <iframe height="300px" width="400px"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
-              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <iframe height="300px" width="400px"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
   </section>
 
   <footer> <p>&copy; SuperShoes 2020, tous droits résérvés</p> </footer>
 </body>
-
 </html>
