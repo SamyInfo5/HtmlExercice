@@ -38,41 +38,43 @@
   </section>
 
   <section id="about">
-    <div class="container">
-      <div class="flex flex-row justify-center pt-8">
+    <div class="container mx-auto pt-32">
+      <div class="flex flex-row justify-center ">
         <div class="flex flex-col place-content-center">
           <h1 class="text-3xl font-bold">Notre entrerprise</h1>
-          <p class="w-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus libero sunt corporis dolore asperiores, eos odio vero voluptas, consectetur ea commodi</p>
+          <p class=" text-l w-96 pr-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus libero sunt corporis dolore asperiores, eos odio vero voluptas, consectetur ea commodi</p>
         </div>
-        <div class="h-auto max-w-full">
-          <img src="./image/about.jpg">
+        <div class="">
+          <img class="h-80" src="./image/about.jpg">
         </div>
       </div>
     </div>
   </section>
 
   <section id="service">
-    <div class="container">
-      <div class="flex flex-col justify-center pt-8">
-        <h1 class=" text-4xl font-bold">Nos services</h1>
-        <div class="flex">
-          <div class="container">
-            <img src="./image/about.jpg">
-            <div class="container mx-auto">
+    <div class="container mx-auto pt-32">
+      <div class="flex flex-col ">
+        <div class="container mx-auto flex justify-center">
+          <h1 class=" text-4xl font-bold">Nos services</h1>
+        </div>
+        <div class="flex justify-center pt-12">
+          <div class="container mx-auto flex text-center justify-center  flex-col h-64 w-80">
+            <img class="h-64 w-80"src="./image/about.jpg">
+            <div class="container mx-auto flex justify-center flex-col border ">
               <h1 class="text-3xl font-bold">Réparation</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
             </div>
           </div>
-          <div class="container">
-            <img src="./image/about.jpg">
-            <div class="container mx-auto">
+          <div class="container mx-auto flex text-center justify-center flex-col h-64 w-80">
+            <img class="h-64 w-80"src="./image/about.jpg">
+            <div class="container mx-auto flex justify-center flex-col border">
               <h1 class="text-3xl font-bold">Entretien</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
             </div>
           </div>
-          <div class="container">
-            <img src="./image/about.jpg">
-            <div class="container  mx-auto">
+          <div class="container mx-auto flex text-center justify-center  flex-col h-64 w-80">
+            <img class="h-64 w-80"src="./image/about.jpg">
+            <div class="container mx-auto flex justify-center flex-col border ">
               <h1 class="text-3xl font-bold">Sur mesure</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
             </div>
@@ -83,32 +85,45 @@
   </section>
 
   <section id="contact">
-    <div class="container">
-      <div class="flex flex-col">
-        <form>
-          
-          <label for="">Votre nom et prénom</label>
-          <input type="text" name="" id="">
+    <div class="container mx-auto pt-32">
+      <div class="flex justify-center text-4xl font-bold">
+        <h1>Contact</h1>
+      </div>
+      <div class="columns-2 sm:colums-1">
+        <div class="container mx-auto">
+          <iframe height="300px" width="400px"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form">
+          <form class="flex flex-col">
+            <label for="">Votre nom et prénom</label>
+            <input type="text" class="border-2">
 
-          <select>
-            <option value="">Choississez un sujet</option>
-            <option value="">Demandez un devis</option>
-            <option value="">Questions</option>
-            <option value="">Autres</option>
-          </select>
 
-          <label for="">Sujet</label>
-          <textarea></textarea>
+            <label for="">Sujet</label>
+            <select class="border-2">
+              <option value="">Choississez un sujet</option>
+              <option value="">Demandez un devis</option>
+              <option value="">Questions</option>
+              <option value="">Autres</option>
+            </select>
 
-          <button>Envoyez</button>
-        </form>
+            <label for="">Votre message</label>
+            <textarea class="border-2"></textarea>
 
-        <iframe height="300px" width="400px"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <button class="border-2 bg-sky-600 text-white	rounded h-10 w-32">Envoyez</button>
+          </form>
+        </div>
       </div>
   </section>
 
-  <footer> <p>&copy; SuperShoes 2020, tous droits résérvés</p> </footer>
+  <footer class="bg-slate-400	">
+    <div class="container mx-auto">
+      <div class="flex justify-center">
+        <p>&copy; SuperShoes 2020, tous droits résérvés</p> 
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
