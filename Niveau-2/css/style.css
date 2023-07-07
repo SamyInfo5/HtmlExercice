@@ -23,10 +23,20 @@ header{
 .scrolling {
   position: absolute;
 	padding-left: 43%;
-	top: 150%; left: 0; bottom: 0; right: 0;
+	top: 115%; left: 0; bottom: 0; right: 0;
 	max-width: 100vw;
 	max-height: 100vh;
   width: 100%;
+}
+@media screen and (max-width:768px){
+  .scrolling {
+    top:115%;
+    padding-left: 38%;
+    max-width: 100vw;
+	  max-height: 100vh;
+    width: 100%;
+  }
+  
 }
 @media screen and (max-width : 507px) {
   .header{
@@ -43,8 +53,8 @@ header{
   }
   .scrolling {
     position: absolute;
-    padding-left: 29%;
-    top: 85%; left: 0; bottom: 0; right: 0;
+    padding-left: 20%;
+    top: 60%; left: 0; bottom: 0; right: 0;
     max-width: 100vw;
     max-height: 100vh;
     width: 100%;
