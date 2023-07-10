@@ -18,19 +18,19 @@
         <ul>
           <li class="deroulant"><a href="#"><img class="menu-icon" src="../Exo Html-css/images/menu.png" height="10px" width="10px" alt=""></a>
             <ul class="sous">
-              <li><a href="#">a propos</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#entreprise">a propos</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#information">Contact</a></li>
             </ul>
           </li>
         </ul>
       </nav>
       <nav class="main-navigation">
         <ul>
-          <li> <a href="" class="is-active">Acceuil</a> </li>
-          <li> <a href="">A propos</a> </li>
-          <li> <a href="">Services</a> </li>
-          <li> <a href="">Contact</a> </li>
+          <li> <a href="#" class="is-active">Acceuil</a> </li>
+          <li> <a href="#entreprise">A propos</a> </li>
+          <li> <a href="#service">Services</a> </li>
+          <li> <a href="#information">Contact</a> </li>
         </ul>
       </nav>
     </header>
@@ -41,45 +41,50 @@
       <h1 class="header-title">Ici, on répare vos chaussures</h1>
       <h2 class="header-subtitle">Pour que vous repartiez de bon pieds</h2>
     </div>  
-    <p class="header-scrolling">scrollez vers le bas ▼</p>
+    <p class="header-scrolling">scrollez <br> vers le bas <br> ▼</p>
   </div>
   <div class="main-container">
 
-    <div class="entreprise">
+    <div id="entreprise" class="entreprise">
       <div class="entreprise-container">
         <div class="entreprise-texte">
           <h1 class="entreprise-texte-title">Notre entreprise</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum necessitatibus, ad iste labore recusandae architecto dolorum quos. Voluptatibus ducimus, quisquam exercitationem veniam vel debitis perferendis magnam! Quos, officiis quia?</p>
+          <p class="entrepise-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum necessitatibus, ad iste labore recusandae architecto dolorum quos. Voluptatibus ducimus, quisquam exercitationem veniam vel debitis perferendis magnam! Quos, officiis quia?</p>
         </div>
-        <img class="img-entreprise" src="../Exo Html-css/images/cordonnier.jpg" alt="">
+        <img class="img-entreprise" src="../Exo Html-css/images/about.jpg" alt="">
       </div>
     </div>
     
-    <div class="service-title">
+    <div id="service" class="service-title">
       <h1 class="service-title-title">Nos services</h1>
     </div>
     <div class="service">
-      
       <div class="reparation">
-        <img class="img-service" src="../Exo Html-css/images/cordonnier.jpg">
-        <h1 class="service-texte">Réparations</h1>
-        <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+        <img class="img-service" src="../Exo Html-css/images/about.jpg">
+        <div class="service-texte-contain">
+          <h1 class="service-texte-title">Réparations</h1>
+          <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+        </div>
       </div>
       
       <div class="entretien">
-        <img class="img-service" src="../Exo Html-css/images/cordonnier.jpg" alt="" srcset="">
-        <h1 class="service-texte">Entretien</h1>
-      <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+        <img class="img-service" src="../Exo Html-css/images/about.jpg" alt="" srcset="">
+        <div class="service-texte-contain">
+          <h1 class="service-texte-title">Entretien</h1>
+          <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+        </div>
     </div>
     
     <div class="surmesure">
-      <img class="img-service" src="../Exo Html-css/images/cordonnier.jpg" alt="" srcset="">
-      <h1 class="service-texte">Sur mesure</h1>
-      <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+      <img class="img-service" src="../Exo Html-css/images/about.jpg" alt="" srcset="">
+      <div class="service-texte-contain">
+        <h1 class="service-texte-title">Sur mesure</h1>
+        <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+      </div>
     </div>
   </div>
     
-  <div class="information">
+  <div id="information" class="information">
     <h1 class="info-title">Contactez-nous</h1>
     <div class="info">
       <div class="info-left">
@@ -92,7 +97,7 @@
         </select> <br>
         
         <label for="Message">Votre message</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <textarea name="" id="" cols="50" rows="10"></textarea> <br>
         
         <button>Envoyer</button>
       </div>
