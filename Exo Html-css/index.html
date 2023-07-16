@@ -1,118 +1,153 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Exercice Landingpage</title>
-  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
-    <div class="main-navbar">
+    <div class="header">
+      <div class="logo">
+        <h1>SuperShoes</h1>
+      </div>
 
-      <h3 class="main-logo">SuperShoes</h3>
-      
-      <nav class="menu-tel">
-        <ul>
-          <li class="deroulant"><a href="#"><img class="menu-icon" src="../Exo Html-css/images/menu.png" height="10px" width="10px" alt=""></a>
-            <ul class="sous">
-              <li><a href="#entreprise">a propos</a></li>
-              <li><a href="#service">Service</a></li>
-              <li><a href="#information">Contact</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <nav class="main-navigation">
-        <ul>
-          <li> <a href="#" class="is-active">Acceuil</a> </li>
-          <li> <a href="#entreprise">A propos</a> </li>
-          <li> <a href="#service">Services</a> </li>
-          <li> <a href="#information">Contact</a> </li>
-        </ul>
-      </nav>
-    </header>
-
-    </div>
-  <div class="header">
-    <div class="header-container">
-      <h1 class="header-title">Ici, on répare vos chaussures</h1>
-      <h2 class="header-subtitle">Pour que vous repartiez de bon pieds</h2>
-    </div>  
-    <p class="header-scrolling">scrollez <br> vers le bas <br> ▼</p>
-  </div>
-  <div class="main-container">
-
-    <div id="entreprise" class="entreprise">
-      <div class="entreprise-container">
-        <div class="entreprise-texte">
-          <h1 class="entreprise-texte-title">Notre entreprise</h1>
-          <p class="entrepise-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum necessitatibus, ad iste labore recusandae architecto dolorum quos. Voluptatibus ducimus, quisquam exercitationem veniam vel debitis perferendis magnam! Quos, officiis quia?</p>
+      <div class="nav">
+        <nav>
+          <ul>
+            <li><a href="#Acceuil">Acceuil</a></li>
+            <li><a href="#Propos">A propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-mobile">
+        <div class="menu-mobile">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" height="50px">
         </div>
-        <img class="img-entreprise" src="../Exo Html-css/images/about.jpg" alt="">
+        <div class="menu">
+          <ul class="sous">
+            <li><a href="#Acceuil">Acceuil</a></li>
+            <li><a href="#Propos">A propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    
-    <div id="service" class="service-title">
-      <h1 class="service-title-title">Nos services</h1>
-    </div>
-    <div class="service">
-      <div class="reparation">
-        <img class="img-service" src="../Exo Html-css/images/about.jpg">
-        <div class="service-texte-contain">
-          <h1 class="service-texte-title">Réparations</h1>
-          <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
-        </div>
-      </div>
-      
-      <div class="entretien">
-        <img class="img-service" src="../Exo Html-css/images/about.jpg" alt="" srcset="">
-        <div class="service-texte-contain">
-          <h1 class="service-texte-title">Entretien</h1>
-          <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
-        </div>
-    </div>
-    
-    <div class="surmesure">
-      <img class="img-service" src="../Exo Html-css/images/about.jpg" alt="" srcset="">
-      <div class="service-texte-contain">
-        <h1 class="service-texte-title">Sur mesure</h1>
-        <p class="service-texte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, accusantium</p>
+  </header>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero-contain">
+        <h1 class="hero-title"> Ici, on répare vos chaussure</h1>
+        <h1 class="hero-subtitle">pour que vous repartiez du bon pied</h1>
+        <p class="scrolling">scrollez <br> vers le bas <br> ▽</p>
       </div>
     </div>
   </div>
-    
-  <div id="information" class="information">
-    <h1 class="info-title">Contactez-nous</h1>
-    <div class="info">
-      <div class="info-left">
-        <label for="Name">Votre nom et prénom</label>
-        <input type="text"> <br>
-        
-        <label for="Sujet">Sujet</label>
-        <select name="" id="">
-          <option value="">Choississez un sujet</option>
-        </select> <br>
-        
-        <label for="Message">Votre message</label>
-        <textarea name="" id="" cols="50" rows="10"></textarea> <br>
-        
-        <button>Envoyer</button>
+
+  <div id="Propos" class="Propos">
+    <div class="container">
+      <div class="propos-contain">
+        <div class="propos-texte">
+          <h1 class="propos-title">Notre entreprise</h1>
+          <p class="propos-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. In blanditiis voluptatum vel
+            accusamus architecto iste nam nihil, aliquam corrupti natus eaque enim ipsum! Doloribus expedita laborum et
+            doloremque.</p>
+        </div>
+        <div class="propos-img">
+          <img class="image-propos" src="./images/about.jpg" alt="">
+        </div>
       </div>
-    
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
     </div>
   </div>
-</div>
-<footer>
-  <p>SuperShoes 2020, tous droits résérvés</p>
-</footer>
 
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <div id="services" class="services">
+    <div class="container">
+      <div class="services-titles">
+        <h1>Nos services</h1>
+      </div>
+      <div class="item-services">
+        <div class="reparation">
+          <div class="services-texte">
+            <img class="image-services" src="./images/about.jpg" alt="">
+            <div class="texte-service">
+              <h1 class="title">Réparation</h1>
+              <p class="texte">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Nisi, accusantium </p>
+            </div>
+          </div>
+        </div>
+        <div class="entretien">
+          <div class="services-texte">
+            <img class="image-services" src="./images/about.jpg" alt="">
+            <div class="texte-service">
+              <h1 class="title">Entretien</h1>
+              <p class="texte">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Nisi, accusantium </p>
+            </div>
+          </div>
+        </div>
+        <div class="mesure">
+          <div class="services-texte">
+            <img class="image-services" src="./images/about.jpg" alt="">
+            <div class="texte-service">
+              <h1 class="title">Sur mesure</h1>
+              <p class="texte">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Nisi, accusantium </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact">
+    <div class="container">
+      <div class="contact-title">
+        <h1>Contactez-nous</h1>
+      </div>
+      <div class="contain">
+        <div class="maps">
+          <iframe height="300px" width="800px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form">
+          <label for="">Votre nom et prénom</label>
+          <input type="text">
+
+          <label for="">Sujet</label>
+          <select name="" id="">
+            <option value="">Choississez un sujet </option>
+            <option value="">Demande de devis</option>
+            <option value="">Question</option>
+            <option value="">Autre</option>
+          </select>
+
+          <label for="">Votre Message</label>
+          <textarea cols="30" rows="10"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <p> &copy; SuperShoes 2020, tous droits résérvés</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
