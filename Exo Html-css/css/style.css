@@ -52,7 +52,8 @@ a{
   background-size: cover;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 30vh;
+  background-position: cover;
 }
 
 .hero-contain {
@@ -79,7 +80,7 @@ a{
 }
 .scrolling {
   position: absolute;
-  top: 100%;
+  top: 29%;
   left: 0;
   right: 0;
   text-align: center;
@@ -143,7 +144,6 @@ a{
 .services-texte{
   width: 340px;
   text-align: start;
-  padding: 15px;
   border: 1px solid#69747b;
 }
 
@@ -180,6 +180,19 @@ a{
 .maps {
   display: flex;
   width: 63%;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+}
+button{
+  width: 85px;
+  height: 35px;
+  background-color: #437BFD;
+  color: white;
+border: 1px solid transparent;
+border-radius: 5px;
 }
 
 /* Footer */
@@ -220,7 +233,7 @@ a{
   }
   .services-texte {
     text-align: start;
-    width: 35vw;
+    width: 50vw;
     padding: 0;
   }
   .image-services {
