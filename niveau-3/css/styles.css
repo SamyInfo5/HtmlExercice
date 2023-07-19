@@ -2,13 +2,18 @@
   background: url("../image/cordonnier.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
-  background-position: cover;
+  height: 100vh;
+  background-position: center center;
+}
+
+#ImgShadow{
+  box-shadow:  30px 30px #DC3544;
 }
 
 .scrolling {
   position: absolute;
-  top: 15%;
+  top: 95%;
+  font-weight: 300;
   left: 0;
   right: 0;
   text-align: center;
@@ -58,19 +63,11 @@ li:hover>button svg {
   nav {
     display: none;
   }
-
-  .scrolling {
-    position: absolute;
-    padding-left: 0%;
-    top: 80%;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    max-width: 100vw;
-    max-height: 100vh;
-    width: 100%;
-  }
   .menu{
     display: block;
+  }
+
+  #ImgShadow {
+    box-shadow: none;
   }
 }

@@ -395,6 +395,13 @@ iframe {
     height: 70px;
   }
 
+  .Propos{
+      padding: 0px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
   .propos-contain {
     width: 100%;
   }
@@ -410,7 +417,7 @@ iframe {
   }
 
   .image-propos {
-    height: 220px;
+    height: 240px;
   }
 
   .services-texte {
@@ -423,6 +430,7 @@ iframe {
  .menu-iphone{
   padding-top: 25px;
   text-align: center;
+  display: block;
  }
   .menu {
     display: inline-block;
