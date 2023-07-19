@@ -13,12 +13,13 @@
   --bg-footer: #69747b;
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1100px;
   margin: auto;
 }
-.container-hero{
+
+.container-hero {
   width: 50%;
   margin: auto;
 }
@@ -32,12 +33,12 @@
   height: 55px;
 }
 
-.logo-title{
+.logo-title {
   font-size: 20px;
   font-weight: 400;
 }
 
-.nav-mobile{
+.nav-mobile {
   display: none;
 }
 
@@ -45,13 +46,14 @@ ul {
   display: flex;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   padding-left: 25px;
 }
 
-.logo, .nav {
+.logo,
+.nav {
   padding: 20px;
 }
 
@@ -62,7 +64,8 @@ a{
   background-size: cover;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 30vh;
+  background-position: cover;
 }
 
 .hero-contain {
@@ -80,6 +83,7 @@ a{
   font-size: 33px;
   font-weight: 500;
 }
+
 .hero-subtitle {
   background: var(--bg-footer);
   width: max-content;
@@ -90,9 +94,10 @@ a{
   font-size: 22px;
   height: 40px;
 }
+
 .scrolling {
   position: absolute;
-  top: 90%;
+  top: 29%;
   left: 0;
   right: 0;
   text-align: center;
@@ -102,10 +107,12 @@ a{
   line-height: 30px;
   text-transform: uppercase;
 }
+
 /*PARTI PROPOS*/
-.Propos{
+.Propos {
   padding: 100px;
 }
+
 .propos-contain {
   display: flex;
   align-items: center;
@@ -118,7 +125,8 @@ a{
   padding-right: 50px;
   color: var(--text-color);
 }
-.propos-texte{
+
+.propos-texte {
   padding-right: 50px;
 }
 
@@ -134,8 +142,8 @@ a{
 
 /*Services*/
 
-.services{
- padding: 25px;
+.services {
+  padding: 25px;
 }
 
 .services-titles {
@@ -154,46 +162,50 @@ a{
 .image-services {
   height: 230px;
   width: 350px;
-  border:  1px solid transparent;
+  border: 1px solid transparent;
   border-radius: 5px;
 }
 
-.services-texte{
+.services-texte {
   width: 349px;
   text-align: start;
   border: 1px solid lightgray;
   border-radius: 5px;
+  border: 1px solid#69747b;
 }
 
 .title {
   padding-bottom: 15px;
   color: var(--text-color);
 }
-.texte{
+
+.texte {
   line-height: 25px;
 }
+
 .texte-service {
   padding-top: 18px;
   padding-left: 20px;
   padding-bottom: 18px;
 }
 
-.title{
+.title {
   font-weight: 600;
 }
 
 /*Contact*/
-.contact{
+.contact {
   padding-top: 75px;
   padding-bottom: 90px;
 }
+
 .contact-title {
   text-align: center;
   padding-bottom: 20px;
   color: var(--text-color);
 }
 
-.contact-title-title{
+.contact-title-title {
   font-size: 40px;
   font-weight: 500;
 }
@@ -215,7 +227,8 @@ label {
   padding-bottom: 5px;
 }
 
-select, input {
+select,
+input {
   height: 35px;
   border: 1px solid lightgray;
   border-radius: 5px;
@@ -223,14 +236,14 @@ select, input {
   width: 300px;
 }
 
-textarea{
+textarea {
   height: 135px;
   border: 1px solid lightgray;
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
-button{
+button {
   width: 90px;
   height: 40px;
   background-color: #0A7EF7;
@@ -239,7 +252,8 @@ button{
   border-radius: 5px;
   font-size: 15px;
 }
-.btn{
+
+.btn {
   display: flex;
   justify-content: end;
 }
@@ -249,118 +263,163 @@ button{
   width: 63%;
 }
 
-iframe{
+iframe {
   height: 400px;
-}
 
-/* Footer */
-.footer{
-  background-color: var(--bg-footer);
-  height: 40px;
-  display: flex;
-}
-
-@media screen and (max-width : 1024px) {
-
-  .hero-title {
-    width: 100%;
-    font-size: 3vh;
-    text-align: center;
-  }
-  .hero-subtitle {
-    width: 100%;
-    font-size: 1.5vh;
-    text-align: center;
-  }
-  .propos-contain {
-    flex-direction: column;
-    text-align: center;
-  }
-  .propos-texte{
-    padding-bottom: 20px;
-  }
-  .image-propos {
-    height: 70%;
-    width: 100%;
-    box-shadow: none;
-  }
-
-  .item-services {
-    flex-direction: column;
-    align-items: center;
-  }
-  .services-texte {
-    text-align: start;
-    width: 35vw;
-    padding: 0;
-  }
-  .image-services {
-    width: 100%;
-    height: auto;
-  }
-  .reparation, .entretien, .mesure {
-    margin-bottom: 2.5vh;
-  }
-  .contain {
-    flex-direction: column-reverse;
-  }
-  input, label, textarea , select , option {
-    width: 50%;
-  }
-  .form {
-    align-items: center;
-  }
-  .maps {
+  .btn {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 1.5vh;
-  }
-}
-
-@media screen and (max-width : 624px) {
-  .nav {
-    display: none;
-  }
-  .nav-mobile {
-    display: block;
-  }
-  .nav-mobile:hover>.sous{
-    display: block;
-  }
-  .sous {
-    display: none;
-    flex-direction: column;
-    text-align: start;
-    background-color: grey;
-  }
-}
-
-@media screen and (max-width : 375px) {
-  .container {
-    width: 100vw;
-    max-width: 320px;
-  }
-  .Propos {
-    padding: 0;
-    padding-top: 100px;
+    justify-content: end;
   }
 
-  .services{
-    padding: 0;
-    padding-top: 100px;
+  button {
+    width: 85px;
+    height: 35px;
+    background-color: #437BFD;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
   }
-  .services-texte {
-    width: 80%;
-  }
-  .reparation, .entretien, .mesure{
-    display: flex;
-    justify-content: center;
-  }
-  .form{
+
+  /* Footer */
+  .footer {
+    background-color: var(--bg-footer);
+    height: 40px;
     display: flex;
   }
-  label, input, textarea, label, select {
-    width: 100%;
+
+  @media screen and (max-width : 1024px) {
+
+    .hero-title {
+      width: 100%;
+      font-size: 3vh;
+      text-align: center;
+    }
+
+    .hero-subtitle {
+      width: 100%;
+      font-size: 1.5vh;
+      text-align: center;
+    }
+
+    .propos-contain {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .propos-texte {
+      padding-bottom: 20px;
+    }
+
+    .image-propos {
+      height: 70%;
+      width: 100%;
+      box-shadow: none;
+    }
+
+    .item-services {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .services-texte {
+      text-align: start;
+      width: 50vw;
+      padding: 0;
+    }
+
+    .image-services {
+      width: 100%;
+      height: auto;
+    }
+
+    .reparation,
+    .entretien,
+    .mesure {
+      margin-bottom: 2.5vh;
+    }
+
+    .contain {
+      flex-direction: column-reverse;
+    }
+
+    input,
+    label,
+    textarea,
+    select,
+    option {
+      width: 50%;
+    }
+
+    .form {
+      align-items: center;
+    }
+
+    .maps {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding-top: 1.5vh;
+    }
   }
-}
+
+  @media screen and (max-width : 624px) {
+    .nav {
+      display: none;
+    }
+
+    .nav-mobile {
+      display: block;
+    }
+
+    .nav-mobile:hover>.sous {
+      display: block;
+    }
+
+    .sous {
+      display: none;
+      flex-direction: column;
+      text-align: start;
+      background-color: grey;
+    }
+  }
+
+  @media screen and (max-width : 375px) {
+    .container {
+      width: 100vw;
+      max-width: 320px;
+    }
+
+    .Propos {
+      padding: 0;
+      padding-top: 100px;
+    }
+
+    .services {
+      padding: 0;
+      padding-top: 100px;
+    }
+
+    .services-texte {
+      width: 80%;
+    }
+
+    .reparation,
+    .entretien,
+    .mesure {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form {
+      display: flex;
+    }
+
+    label,
+    input,
+    textarea,
+    label,
+    select {
+      width: 100%;
+    }
+  }
+ }

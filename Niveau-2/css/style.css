@@ -3,18 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.header {
+.acceuil {
   background: url("../image/cordonnier.jpg");
-  height: 100vh;
+  height: 50em;
+  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
+.dropdown {
+  display: none;
+}
 
+.w-80{
+  width: 80% !important;
+}
+.w-85{
+  width: 86% !important;
+}
 .scrolling {
   position: absolute;
-  top: 80%;
+  top: 100%;
   left: 0;
   right: 0;
   text-align: center;
@@ -23,8 +33,60 @@
   font-size: 24px;
   text-transform: uppercase;
 }
-@media screen and (max-width:768px){
-  .img-fluid{
+ul{
+  text-decoration: None;
+  color: white;
+}
+.nav-link {
+  color: #F0A3A9;
+}
+
+.bg-dark{
+  background-color: #6C757D;
+}
+
+.bg-gris{
+  background-color: #6C757D;
+}
+
+.img-shadow{
+  box-shadow:  30px 30px #DC3544;
+}
+
+iframe{
+  padding-right: 2%;
+  border:  1px solid transparent;
+  border-radius: 5px;
+}
+
+p{
+  font-size: smaller;
+}
+
+@media screen and (max-width: 1024px){
+  .img-shadow {
     box-shadow: none;
+  }
+}
+
+@media screen and (max-width:768px){
+  .img-shadow {
+    box-shadow: none;
+  }
+  nav {
+    display: None;
+  }
+  .dropdown{
+    display: block;
+  }
+  iframe{
+    width: 70vw;
+    height: 50vh;
+    padding-right: 2%;
+    border:  1px solid transparent;
+    border-radius: 5px;
+  }
+  label{
+    font-size: small;
   }
 }
