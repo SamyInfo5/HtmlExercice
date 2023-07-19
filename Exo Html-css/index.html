@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Exercice Landingpage</title>
 </head>
 
@@ -18,7 +19,7 @@
 
       <div class="nav">
         <nav>
-          <ul>
+          <ul class="menu">
             <li><a href="#Acceuil">Acceuil</a></li>
             <li><a href="#Propos">A propos</a></li>
             <li><a href="#services">Services</a></li>
@@ -26,23 +27,21 @@
           </ul>
         </nav>
       </div>
-      <div class="nav-mobile">
-        <div class="menu-mobile">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" height="50px">
-        </div>
-        <div class="menu">
-          <ul class="sous">
-            <li><a href="#Acceuil">Acceuil</a></li>
-            <li><a href="#Propos">A propos</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+      <nav class="menu-iphone">
+        <ul class="menu">
+          <li>
+            <i class="fa fa-bars"></i>
+            <ul class="sub-menu">
+              <li><a href="#acceuil">Acceuil</a> </li>
+              <li><a href="#Propos">A propos</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </li>
     </div>
   </header>
 
-  <div class="hero">
+  <div class="hero" id="acceuil">
     <div class="container-hero">
       <div class="hero-contain">
         <h1 class="hero-title"> Ici, on répare vos chaussure</h1>
@@ -117,19 +116,26 @@
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="form">
-          <label for="">Votre nom et prénom</label>
-          <input type="text">
-
-          <label for="">Sujet</label>
-          <select name="" id="">
-            <option value="">Choississez un sujet </option>
-            <option value="">Demande de devis</option>
-            <option value="">Question</option>
-            <option value="">Autre</option>
-          </select>
-
-          <label for="">Votre Message</label>
-          <textarea cols="30" rows="10"></textarea>
+          <div class="container">
+            <div class="contain-form">
+              <label for="">Votre nom et prénom</label>
+              <input type="text">
+    
+              <label for="">Sujet</label>
+              <select name="" id="">
+                <option value="">Choississez un sujet </option>
+                <option value="">Demande de devis</option>
+                <option value="">Question</option>
+                <option value="">Autre</option>
+              </select>
+    
+              <label for="">Votre Message</label>
+              <textarea cols="30" rows="20"></textarea>
+              <div class="btn">
+                <button>Envoyer</button>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -149,5 +155,3 @@
     crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
-
-</html>
