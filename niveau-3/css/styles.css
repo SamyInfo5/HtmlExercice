@@ -59,6 +59,11 @@ li:hover>button svg {
   min-width: 8rem
 }
 
+ul{
+  top: 2px;
+  left: 35px;
+}
+
 @media screen and (max-width : 493px) {
   nav {
     display: none;
