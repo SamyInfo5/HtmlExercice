@@ -59,9 +59,15 @@ li:hover>button svg {
   min-width: 8rem
 }
 
-ul{
-  top: 40px;
+.navmobile{
+  top: 60px;
   right: 0px;
+  width: 100px;
+  text-align: center;
+}
+
+.active{
+  opacity: 100%;
 }
 
 @media screen and (max-width : 768px){
