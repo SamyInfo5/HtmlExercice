@@ -11,6 +11,13 @@
   <script>
     tailwind.config = {
       theme: {
+        textColor: { 
+          'white': 'white',
+          'primary': '#3490dc',
+          'secondary': '#ffed4a',
+          'danger': '#e3342f',
+          'gris': "#222426"
+        },
         screens: {
           sm: '480px',
           md: '768px',
@@ -50,7 +57,7 @@
       <div class="flex justify-between  items-center h-[40px] ">
         <h1 class="text-xl text-white">SuperShoes</h1>
 
-        <nav>
+        <nav class="Navbar">
           <ul class="flex text-white">
             <li class="pr-3"><a class="text-lg" href="#acceuil">Acceuil</a></li>
             <li class="pr-3"><a class="text-lg" href="#about">A propos</a></li>
@@ -94,8 +101,9 @@
     <div class="container mx-auto pt-[75px]">
       <div class="flex flex-col md:flex-row md:items-center xl:justify-center">
         <div class="flex flex-col">
-          <h1 class="text-3xl">Notre entrerprise</h1>
-          <p class="leading-7 text-lg pb-2 pt-3 md:w-[450px] lg:pr-4 xl:w-[550px]">Lorem, ipsum dolor sit amet consectetur
+          <h1 class="text-3xl text-gris">Notre entrerprise</h1>
+          <p class="leading-7 text-gris text-lg pb-2 pt-3 md:w-[450px] lg:pr-4 xl:w-[550px]">Lorem, ipsum dolor sit amet
+            consectetur
             adipisicing elit. Sunt reprehenderit hic eligendi assumenda quos animi consequatur tenetur atque nam. Quos
             aspernatur placeat fuga excepturi
             veritatis eos evenlet nemo magni tacere</p>
@@ -111,14 +119,14 @@
     <div class="container mx-auto pt-[75px]">
       <div class="flex flex-col ">
         <div class="container">
-          <h1 class=" text-4xl  text-center">Nos services</h1>
+          <h1 class=" text-4xl text-gris text-center">Nos services</h1>
         </div>
         <div class="flex flex-col md:flex-row   justify-center pt-1">
 
           <div class="mb-4 md:p-2 xl:m-3 xl:w-[360px]">
             <img class="rounded " src="./image/about.jpg">
             <div class="container p-3 border-2 rounded">
-              <h1 class="text-2,5xl  pb-1 ">Réparation</h1>
+              <h1 class="text-2,5xl  pb-1  text-gris">Réparation</h1>
               <p class="leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
             </div>
           </div>
@@ -126,7 +134,7 @@
           <div class="mb-4 md:p-2 xl:m-3 xl:w-[360px]">
             <img class="rounded" src="./image/about.jpg">
             <div class="container p-3 border-2 rounded">
-              <h1 class="text-2,5xl pb-1">Entretien</h1>
+              <h1 class="text-2,5xl pb-1 text-gris">Entretien</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
             </div>
           </div>
@@ -134,7 +142,7 @@
           <div class="mb-4 md:p-2 xl:m-3 xl:w-[360px]">
             <img class="rounded " src="./image/about.jpg">
             <div class="container p-3 border-2 rounded">
-              <h1 class="text-2,5xl pb-1">Sur mesure</h1>
+              <h1 class="text-2,5xl pb-1 text-gris">Sur mesure</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, incidunt!</p>
             </div>
           </div>
@@ -147,12 +155,12 @@
   <section class="p-5" id="contact">
     <div class="container mx-auto pt-[75px]">
       <div class="flex justify-center text-3xl">
-        <h1>Contactez-nous</h1>
+        <h1 class="text-gris">Contactez-nous</h1>
       </div>
       <div class="flex justify-center  pb-24">
         <div class="flex flex-col-reverse md:flex-row md:items-center">
           <div class="pt-7 md:mr-[10px]">
-            <iframe class="rounded h-[400px] md:w-[550px] lg:w-[760px]"
+            <iframe class="rounded h-[450px] md:w-[500px] lg:w-[760px]"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20146.566332488514!2d4.364464221811246!3d50.86226066738749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a49504b00adb%3A0xaa723cd641a0fa1e!2s1030%20Schaerbeek!5e0!3m2!1sfr!2sbe!4v1688371620151!5m2!1sfr!2sbe"
               allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
