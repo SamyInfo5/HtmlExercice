@@ -64,15 +64,17 @@ ul{
   right: 15px;
 }
 
+@media screen and (max-width : 768px){
+  #ImgShadow {
+    box-shadow: none;
+  }
+}
+
 @media screen and (max-width : 493px) {
   .Navbar {
     display: none;
   }
   .menu{
     display: block;
-  }
-
-  #ImgShadow {
-    box-shadow: none;
   }
 }
