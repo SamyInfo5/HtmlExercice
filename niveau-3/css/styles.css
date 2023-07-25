@@ -1,9 +1,10 @@
 #acceuil {
-  background: url("../image/cordonnier.jpg");
+  background: url("../image/cordonnier.jpg"), url("../image/cordonnierBlur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 #ImgShadow{
@@ -12,7 +13,7 @@
 
 .scrolling {
   position: absolute;
-  top: 95%;
+  top: 90%;
   font-weight: 300;
   left: 0;
   right: 0;
@@ -67,7 +68,7 @@ li:hover>button svg {
 }
 
 .active{
-  opacity: 100%;
+  opacity: 100%!important;
 }
 
 @media screen and (max-width : 768px){
